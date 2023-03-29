@@ -18,7 +18,6 @@ xhttp.onload = function () {
                 <td>${element.category}</td>
             </tr>
         `;
-        console.log(element);
     });
 };
 xhttp.open("GET", "https://dummyjson.com/products");
